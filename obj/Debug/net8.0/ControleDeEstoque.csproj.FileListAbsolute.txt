@@ -1,0 +1,14 @@
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\bin\Debug\net8.0\ControleDeEstoque.exe
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\bin\Debug\net8.0\ControleDeEstoque.deps.json
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\bin\Debug\net8.0\ControleDeEstoque.runtimeconfig.json
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\bin\Debug\net8.0\ControleDeEstoque.dll
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\bin\Debug\net8.0\ControleDeEstoque.pdb
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.AssemblyInfoInputs.cache
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.AssemblyInfo.cs
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.csproj.CoreCompileInputs.cache
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.dll
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\refint\ControleDeEstoque.dll
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.pdb
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.genruntimeconfig.cache
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ref\ControleDeEstoque.dll
