@@ -12,3 +12,4 @@ C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0
 C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.pdb
 C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.genruntimeconfig.cache
 C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ref\ControleDeEstoque.dll
+C:\Users\jader\source\repos\ControleDeEstoque\ControleDeEstoque\obj\Debug\net8.0\ControleDeEstoque.sourcelink.json
