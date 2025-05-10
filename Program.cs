@@ -1,4 +1,24 @@
 ﻿using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        for (int j = 0; j < 10; j++)
+        {
+            if (j == 5)
+            {
+                continue;
+            }
+            Console.WriteLine($"Iteração {j}.");
+        }
+    }
+}
+
+        
+    
+/*using System;
 using System.Collections.Generic;
 
 class ControleDeEstoque
@@ -8,19 +28,24 @@ class ControleDeEstoque
         Console.WriteLine("Digite a opção desejada entre: cadastrar, listar, atualizar, remover ou sair");
         string opcaoEscolhida = Console.ReadLine();
 
-        string produto = Console.ReadLine();
+        
 
         while (opcaoEscolhida != "sair") {
             switch (opcaoEscolhida)
             {
                 case "cadastrar":
-                
-                    List<string> produtos = new List<string>();
-                    produtos.Insert(1, produto);
+                    string produto = Console.ReadLine();
+                    List<string> produto = new List<string>();
+                    produto.Add(produto);
 
                     break;
 
                 case "listar":
+
+                    foreach(int item in opcaoEscolhida)
+                    {
+                        Console.WriteLine(item.ToString());
+                    }
 
                     break;
 
@@ -42,7 +67,7 @@ class Produto
     public string preco;
     public double quantidade;
 }
-
+*/
 // ---------------------------------------------------------------------------
 
 /*using System;
