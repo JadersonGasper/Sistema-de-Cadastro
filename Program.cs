@@ -2,22 +2,27 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args)        
     {
 
-        for (int j = 0; j < 10; j++)
+        /*for (int j=0; j < 11 ;  j++) {
+            Console.WriteLine($"Iteração {j}");
+        }*/
+
+        int i = 10;
+        do
         {
-            if (j == 5)
+            i--;
+            if (i == 5)
             {
                 continue;
             }
-            Console.WriteLine($"Iteração {j}.");
-        }
+            Console.WriteLine($"Iteração {i}.");
+            
+        } while (i > 0);
     }
 }
 
-        
-    
 /*using System;
 using System.Collections.Generic;
 
@@ -67,9 +72,27 @@ class Produto
     public string preco;
     public double quantidade;
 }
-*/
+
 // ---------------------------------------------------------------------------
 
+/*using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+
+        for (int j = 0; j < 10; j++)
+        {
+            if (j == 5)
+            {
+                continue;
+            }
+            Console.WriteLine($"Iteração {j}.");
+        }
+    }
+}
+*/
 /*using System;
 
 class SerHumano
