@@ -1,78 +1,44 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-
-class ControleDeEstoque
-{
-    static void Main(string[] args)
-    {
-        Console.WriteLine("Digite a opção desejada entre: cadastrar, listar, atualizar, remover ou sair");
-        string opcaoEscolhida = Console.ReadLine();
-
-        
-
-        while (opcaoEscolhida != "sair") {
-            switch (opcaoEscolhida)
-            {
-                case "cadastrar":
-                    string produto = Console.ReadLine();
-                    List<string> produto = new List<string>();
-                    produto.Add(produto);
-
-                    break;
-
-                case "listar":
-
-                    foreach(int item in opcaoEscolhida)
-                    {
-                        Console.WriteLine(item.ToString());
-                    }
-
-                    break;
-
-                case "atualizar":
-
-                    break;
-
-                case "remover":
-
-                    break;
-            }
-        }
-    }
-}
-public class Produto
-{
-    public int id;
-    public string nome;
-    public string preco;
-    public double quantidade;
-}
+﻿using System.Text;
 
 class Produto
 {
-    private string nome;
+    private string Nome { get; set; } // encapsulamento com métodos acessores
 
-    public string Nome
+    public double Preco { get; set; }
+
+    public int Estoque { get; private set; }
+
+    public Produto()
     {
-        get
-        {
-            return nome;
-        }
+        this.Estoque = 0;
     }
-}
-
-using System;
-
-class MainClass
-{
-    public static void Main(string[] args)
+    public Produto(string nome, double preco)
     {
-        Console.WriteLine("Classes, Objetos e Escopos de Visibilidade");
+        this.Nome = nome; //necessário o this por conta do nome do parâmetro
+        this.Preco = preco; //necessário o this por conta do nome do parâmetro
+        this.Estoque = 0;
+    }
 
-        Produto p1 = new Produto();
-        p1.Nome = "Banana";
+    public int Vender(int qtde)
+    {
+        if (this.Estoque - qtde >= 0)
+        {
+            this.Estoque -= qtde;
+        }
+        return this.Estoque;
+    }
+    public int Comprar(int qtde)
+    {
+        this.Estoque += qtde;
+        return this.Estoque;
+    }
 
-        Console.WriteLine(p1.Nome);
+    public string ObterTexto()
+    {
+        StringBuilder sb = new StringBuilder();
+        sb.Append($"\nNome: {this.Nome}\n");
+        sb.Append($"Preço: {this.Preco}\n");
+        sb.Append($"Estoque: {this.Estoque}\n");
+        return sb.ToString();
     }
 }
